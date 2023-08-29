@@ -73,19 +73,25 @@ body{
 .aHome {
 width: 46px;
 height: 21px;
+text-decoration: none;
 }
 
 .aService {
 width: 59px;
 height: 21px;
+text-decoration: none;
 }
 
 .aNews {
 width: 46px;
 height: 21px;
+text-decoration: underline;
+
+text-decoration-skip-ink: 50%;
 }
 
 .aContact {
 width: 62px;
 height: 21px;
+text-decoration: none;
 }
