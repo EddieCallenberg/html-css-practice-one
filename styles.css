@@ -12,9 +12,6 @@ body{
     padding-left: 299px;
     align-items: left;
 
-    border-color: #000000;
-    border-width: 1px;
-    border-style: dashed;
     background: #f0ede9;
 }
 
@@ -50,4 +47,45 @@ body{
     right: 300px;
     margin-top: 42px;
     background: rgba(25,25,25,0.1 );
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 307px;
+    height: 21.5px;
+    top: 80px;
+    left: 475px;
+}
+
+.menu a {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    font-style: normal;
+    text-align: left;
+    color: #191919;
+}
+
+.aHome {
+width: 46px;
+height: 21px;
+}
+
+.aService {
+width: 59px;
+height: 21px;
+}
+
+.aNews {
+width: 46px;
+height: 21px;
+}
+
+.aContact {
+width: 62px;
+height: 21px;
 }
